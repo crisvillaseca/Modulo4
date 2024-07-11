@@ -1,0 +1,21 @@
+{
+  "name": "hotel-reservation",
+  "version": "1.0.0",
+  "description": "API para la gestión de reservas en hoteles",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "Bastian_Villaseca",
+  "license": "ISC"
+}
